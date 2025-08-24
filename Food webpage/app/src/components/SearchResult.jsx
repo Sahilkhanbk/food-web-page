@@ -2,6 +2,7 @@
 import styled from "styled-components";
 import { Button, Container } from "../App";
 
+
 const SearchResult = ({ data, BASE_URL, }) => {
     return (
         <FoodCardContainer>
@@ -102,4 +103,5 @@ const FoodCard = styled.div`
     }
   }
 `;
+
 
