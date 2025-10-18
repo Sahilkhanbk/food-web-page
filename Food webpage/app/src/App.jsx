@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react'
 import SearchResult from './components/SearchResult'
 export const BASE_URL = "http://localhost:9000"
 
-
 function App() {
   const [data, setData] = useState()
   const [loading, setLoading] = useState(false)
